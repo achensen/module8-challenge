@@ -24,7 +24,8 @@ npm inquirer
 * To get started run `npm start` in the command line
 
 * You will then be promoted in the command line if you would like to create a new vehicle perform an action on an existing one 
-![CLI Screenshot](/images/Screenshot%20%20Vehicle%20Builder%201.png)
+
+    ![CLI Screenshot](/images/Screenshot%20%20Vehicle%20Builder%201.png)
 
 * If you select the option to create a new vehicle you will be asked choose between the following options
     * Car
@@ -32,7 +33,8 @@ npm inquirer
     * Truck
 
 * Next you will be prompted to input the vehicle color, make, model, year, weight, top speed , and in the instance of choosing a truck the towing capacity  
-![CLI screenshot of prompts with F-150 input](/images/Screenshot%20Vehicle%20Builder%202.png)
+
+    ![CLI screenshot of prompts with F-150 input](/images/Screenshot%20Vehicle%20Builder%202.png)
 
 * You will then be able to choose from a variety of actions for your selected or input vehicle
 
@@ -48,7 +50,8 @@ If you select a truck as your vehicle you have the option to perform the `Tow` a
 * Select `Tow` in the list of actions
 * Next select which vehicle from the list you would like to tow
 
-![Toyota Camry selected as vehicle to be towed](/images/Screenshot%20Vehicle%20Builder%20Towing%20feature.png)
+    ![Toyota Camry selected as vehicle to be towed](/images/Screenshot%20Vehicle%20Builder%20Towing%20feature.png)
+
 * If the weight is less than the maximun towing capacity of the truck selected you will see in the command line that your selected vehicle is now being towed 
 * Then you are free to perform another action with your truck 
 
@@ -56,9 +59,12 @@ If you select a truck as your vehicle you have the option to perform the `Tow` a
 Motorbikes have the special ability to perform a Wheelie, unlike a truck or car
 
 * Select an existing Motorbike or input the specifications just like for truck
-![Existing Selection Harvey Davisdson](/images/Screenshot%20Vehicle%20Builder%20Motorbike%20Selection.png)
+
+    ![Existing Selection Harvey Davisdson](/images/Screenshot%20Vehicle%20Builder%20Motorbike%20Selection.png)
+
 * You can now select `Wheelie` from the list of actions and see that if was performed by your Motorbike
-![Wheelie action selected and performed by Harley](/images/Screenshot%20Vehicle%20Builder%20Motorbike%20Wheelie.png)
+
+    ![Wheelie action selected and performed by Harley](/images/Screenshot%20Vehicle%20Builder%20Motorbike%20Wheelie.png)
 
 ### Car
 For car we will look at the options that are available for all vehicles
@@ -73,7 +79,8 @@ For car we will look at the options that are available for all vehicles
     * `Decelerate 5 MPH` will display new speed in incements of 5 decending `Vehicle decelerated to 0 mph`
     * `Stop vehicle` will reset new speed to 0 and display `Vehicle stopped`
     * `Print details` will display all vehivle information saved in the console
-    ![All vehicle information for the Car selected](/images/Screenshot%20vehicle%20Builder%20Car%20Print%20Details.png)
+
+        ![All vehicle information for the Car selected](/images/Screenshot%20vehicle%20Builder%20Car%20Print%20Details.png)
 
 
 ## Contributions
