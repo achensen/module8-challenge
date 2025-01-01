@@ -1,9 +1,26 @@
 # Vehicle Builder
+  ![license badge](https://img.shields.io/badge/license-MIT-blue)
+## Table of Contents
+* [Description](#description)
+* [License](#license)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributions](#contributions)
+* [Contact Information](#contact-information)
+* [Walkthough Video](#walkthrough-video)
+* [Additional Notes](#additional-notes)
 
+## Description
 This code allows the user to input data and make selections from the command line in 
 order to find several vehicle conditions. 
 
-## Getting Started
+## License
+This project is licensed with MIT
+
+## Installation 
+npm inquirer
+
+## Usage
 * To get started run `npm start` in the command line
 
 * You will then be promoted in the command line if you would like to create a new vehicle perform an action on an existing one 
@@ -57,3 +74,17 @@ For car we will look at the options that are available for all vehicles
     * `Stop vehicle` will reset new speed to 0 and display `Vehicle stopped`
     * `Print details` will display all vehivle information saved in the console
     ![All vehicle information for the Car selected](/images/Screenshot%20vehicle%20Builder%20Car%20Print%20Details.png)
+
+
+## Contributions
+Myself, with some tutoring assistance (see additional notes)
+
+## Contact Information
+My GitHub account is [GitHub Account Link](https://github.com/achensen)
+To email me you can contact me at erinrjacobsen@gmail.com
+
+## Walkthrough Video
+Please follow this link for my Screencastify walkthrough :
+
+## Additional Notes 
+I did recieve tutoring assistance to help with my understanding of this assignment.
