@@ -6,9 +6,7 @@ order to find several vehicle conditions.
 ## Getting Started
 * To get started run `npm start` in the command line
 
-* You will then be promoted in the command line if you would like to create a new vehicle
-perform an action on an existing one
-
+* You will then be promoted in the command line if you would like to create a new vehicle perform an action on an existing one 
 ![CLI Screenshot](/images/Screenshot%20%20Vehicle%20Builder%201.png)
 
 * If you select the option to create a new vehicle you will be asked choose between the following options
@@ -16,8 +14,7 @@ perform an action on an existing one
     * Motorbike
     * Truck
 
-* Next you will be prompted to input the vehicle color, make, model, year, weight, top speed , and in the instance of choosing a truck the towing capacity
-
+* Next you will be prompted to input the vehicle color, make, model, year, weight, top speed , and in the instance of choosing a truck the towing capacity  
 ![CLI screenshot of prompts with F-150 input](/images/Screenshot%20Vehicle%20Builder%202.png)
 
 * You will then be able to choose from a variety of actions for your selected or input vehicle
@@ -27,3 +24,36 @@ perform an action on an existing one
     ![F150 added as user imput show as option in existing](/images/Screenshot%20Vehicle%20Builder%20F150%20added%20to%20list%20.png)
 
 
+## Vehicle Actions
+Each vehicle type handles actions differently, just like they would on the road
+### Trucks
+If you select a truck as your vehicle you have the option to perform the `Tow` action that is only available for this vehicle type
+* Select `Tow` in the list of actions
+* Next select which vehicle from the list you would like to tow
+
+![Toyota Camry selected as vehicle to be towed](/images/Screenshot%20Vehicle%20Builder%20Towing%20feature.png)
+* If the weight is less than the maximun towing capacity of the truck selected you will see in the command line that your selected vehicle is now being towed 
+* Then you are free to perform another action with your truck 
+
+### Motorbikes
+Motorbikes have the special ability to perform a Wheelie, unlike a truck or car
+
+* Select an existing Motorbike or input the specifications just like for truck
+![Existing Selection Harvey Davisdson](/images/Screenshot%20Vehicle%20Builder%20Motorbike%20Selection.png)
+* You can now select `Wheelie` from the list of actions and see that if was performed by your Motorbike
+![Wheelie action selected and performed by Harley](/images/Screenshot%20Vehicle%20Builder%20Motorbike%20Wheelie.png)
+
+### Car
+For car we will look at the options that are available for all vehicles
+
+* Select or input a car from the command line and move through the list of actions to see the resposes
+    * `Start vehicle` will display `Vehicle started`
+        * You must have the vehicle started to run turn right, turn left, and reverse
+    * `Turn right` will display `Vehicle turned right`
+    * `Turn left` will display `Vehicle turned left`
+    * `Reverse` will display `Vehicle reversed`
+    * `Accelerate 5 MPH` will display new speed in increments of 5 ascending `Vehicle accelerated to 5 mph`
+    * `Decelerate 5 MPH` will display new speed in incements of 5 decending `Vehicle decelerated to 0 mph`
+    * `Stop vehicle` will reset new speed to 0 and display `Vehicle stopped`
+    * `Print details` will display all vehivle information saved in the console
+    ![All vehicle information for the Car selected](/images/Screenshot%20vehicle%20Builder%20Car%20Print%20Details.png)
