@@ -94,4 +94,4 @@ To email me you can contact me at erinrjacobsen@gmail.com
 Please follow this link for my Screencastify walkthrough :
 
 ## Additional Notes 
-I did recieve tutoring assistance to help with my understanding of this assignment.
+The initial code for this project was provided by EDX Engineering Services Company to complete an assingment for a Full Stack Web Development Course. My contribution was to complete the code to ensure it had full functionality. I did recieve tutoring assistance to help with my understanding of this assignment, specifically with Trucks.ts and learning how to leverage specific vehicle information in order to dercerne weather something would be towed or not, I also recieved assistance for Typscript synax durinf this challenge.  
