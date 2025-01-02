@@ -91,7 +91,7 @@ My GitHub account is [GitHub Account Link](https://github.com/achensen)
 To email me you can contact me at erinrjacobsen@gmail.com
 
 ## Walkthrough Video
-Please follow this link for my Screencastify walkthrough :
+Please follow this link for my Screencastify walkthrough : [Walkthrough Video](https://drive.google.com/file/d/1RozgaeBKBPwJ-dbIMWLIH7IAlfqtp1Gz/view)
 
 ## Additional Notes 
 The initial code for this project was provided by EDX Engineering Services Company to complete an assignment for a Full Stack Web Development Course. My contribution was to complete the code to ensure it had full functionality. I did receive tutoring assistance to help with my understanding of this assignment, specifically with the Trucks.ts and learning how to leverage specific vehicle information to discern whether something would be towed or not. An example of this was how to use a Union Operator to best leverage information for different vehicles. I also received assistance for Typscript syntax during this challenge. 
