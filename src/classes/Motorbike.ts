@@ -24,10 +24,10 @@ class Motorbike extends Vehicle{
     topSpeed: number,
     wheels: Wheel[]
   ) {
-    // Calls constructor of the parent class, Vehicle
+    // Calls constructor of the parent class, Vehicle, and inherits the properties
     super();
 
-    // Initialize properties of the Car class
+    // Initialize properties of the class
     this.vin = vin;
     this.color = color;
     this.make = make;
@@ -35,7 +35,7 @@ class Motorbike extends Vehicle{
     this.year = year;
     this.weight = weight;
     this.topSpeed = topSpeed;
-    // Check if the wheels array has 4 elements
+    // Check if the wheels array has 4 elements ie for a car or truck
     // Otherwise, use the provided wheels array
     if (wheels.length !== 2) {
       this.wheels = [new Wheel(), new Wheel()];
